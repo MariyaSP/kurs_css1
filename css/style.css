@@ -1,0 +1,104 @@
+@import url('normalize.css');
+@import url('global.css');
+@import url('fonts.css');
+
+body{
+    margin-top: 60px;
+}
+section{
+margin-bottom: 50px;
+}
+
+h1{
+    font-family: 'Roboto Black';
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+h2{
+    font-family: 'Roboto Bold';
+    font-size: 44px;
+    margin-bottom: 20px;
+}
+
+h3{
+    font-family: 'Roboto Black';
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+p{
+    margin-bottom: 30px;
+}
+
+p:nth-last-child(1){
+    margin-bottom: 0;
+}
+
+.container{
+    width: 1080px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.container__gray{
+    width: 1140px;
+    background-color: #F1F1F1;
+    margin: 0 auto;
+    padding: 25px 45px;
+}
+
+.navigation li{
+    color: #02535F;
+}
+
+.navigation a{
+    color: #02535F;
+    line-height: 120%;
+}
+
+.group__img-center-600{
+    width: 600px;
+    margin: 0px auto;
+}
+
+.group__img-center-964{
+    width: 964px;
+    margin: 0px auto;
+}
+
+.group__img-center-1022{
+    width: 1022px;
+    margin: 0px auto;
+}
+
+.group3__block{
+    display: flex;
+    margin-bottom: 30px;
+
+}
+
+.group3__img-block1 {
+    margin-right: 30px;
+}
+
+.group3__img-block2 {
+    margin-left: 30px;
+}
+
+.group__img {
+    margin: 0px auto 30px;
+    display: block;
+
+}
+
+ul{
+    margin-bottom: 30px;
+}
+ul li{
+    list-style-type: none;
+}
+
+ul li:before {
+    content: "- "; 
+}
