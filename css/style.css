@@ -2,13 +2,18 @@
 @import url('global.css');
 @import url('fonts.css');
 
-body{
-    margin-top: 60px;
-}
+
 section{
-margin-bottom: 50px;
+padding: 25px 0;
 }
 
+section:first-child{
+    padding: 60px 0 25px 0;
+}
+
+.footer{
+    padding: 25px 0 60px 0;
+}
 h1{
     font-family: 'Roboto Black';
     font-size: 60px;
@@ -75,10 +80,12 @@ p:nth-last-child(1){
 .group3__block{
     display: flex;
     margin-bottom: 30px;
-
 }
 
-.group3__img-block1 {
+.group3__block:last-child{
+    margin-bottom: 0px;
+}
+.group3__ig-block1 {
     margin-right: 30px;
 }
 
@@ -90,6 +97,10 @@ p:nth-last-child(1){
     margin: 0px auto 30px;
     display: block;
 
+}
+
+.group__img-last{
+    margin-bottom: 0px;
 }
 
 ul{
